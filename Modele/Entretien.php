@@ -14,6 +14,6 @@ class Entretien extends Modele
 
 	public function setEntretien($idTech,$description,$immat)
 	{
-		$requete = 'INSERT INTO Entretien VALUES '
+		$requete = 'INSERT INTO entretien VALUES ';
 	}
 }
