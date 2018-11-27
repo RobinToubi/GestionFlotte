@@ -5,6 +5,7 @@ require_once 'Controleur/ControleurVehicule.php';
 require_once 'Controleur/ControleurEntretiens.php';
 require_once 'Controleur/ControleurSetTechnicien.php';
 require_once 'Controleur/ControleurSetEntretien.php';
+require_once 'Controleur/ControleurHome.php';
 require_once 'Vue/Vue.php';
 
 class Routeur
@@ -14,6 +15,7 @@ class Routeur
 	private $ctrlEntretiens;
 	private $ctrlSetTechnicien;
 	private $ctrlSetEntretien;
+	private $ctrlHome;
 
 	public function __construct()
 	{
@@ -22,6 +24,7 @@ class Routeur
 		$this->ctrlEntretiens = new ControleurEntretiens();
 		$this->ctrlSetTechnicien = new ControleurSetTechnicien();
 		$this->ctrlSetEntretien = new ControleurSetEntretien();
+		$this->ctrlHome = new ControleurHome();
 	}
 
 	// Traite une requête entrante
@@ -82,10 +85,21 @@ class Routeur
 
 				else
 					throw new Exception("Action non proposée");
+			}
+			elseif (isset($_GET['home']))
+			{
+				if ($_GET['home'] == 'loginPage')
+				{
+					$this->ctrlHome->getLoginPage();
 				}
+				elseif ($_GET['home'] == 'sendLogin')
+				{
+					$this->ctrlHome->sendLogin();
+				}
+			}
 			else
 			{
-				$this->ctrlVehicules->vehicules();  // action par défaut
+				$this->ctrlHome->getHomePage();  // action par défaut
 			}
 		}
 		catch (Exception $e)
