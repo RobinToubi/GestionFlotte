@@ -12,7 +12,7 @@ class ControleurHome
 
     public function getLoginPage()
     {
-      $vue = new Vue('Login');
+      $vue = new Vue('HomeLogin');
       $vue->generer(array());
     }
 
