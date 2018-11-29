@@ -6,10 +6,10 @@
         <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#Signin">Sign in</a></li>
-          <li><a href="#Signup">Sign up</a></li>
+          <li><a href="index.php?home=loginPage">Sign in</a></li>
+          <li><a href="index.php?home=registerPage">Sign up</a></li>
           <li><a href="#info">Infos</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-has-children"><a href="">rise up</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="menu-has-children"><a href="#">Drop Down 2</a>
@@ -33,7 +33,7 @@
   <section id="hero">
     <div class="hero-container">
       <h1>Welcome to GSB sans trop tôt</h1>
-      <a href="#info" class="btn-get-started">Get Started</a>
+      <a href="index.php?home=registerPage" class="btn-get-started">Get Started</a>
     </div>
   </section>
   <section id="info">

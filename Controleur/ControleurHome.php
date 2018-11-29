@@ -18,7 +18,7 @@ class ControleurHome
 
     public function getSignUpPage()
     {
-      $vue = new Vue('SignUp');
+      $vue = new Vue('HomeSignUp');
       $vue->generer(array());
     }
 }
