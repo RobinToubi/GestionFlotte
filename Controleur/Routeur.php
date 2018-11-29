@@ -96,6 +96,22 @@ class Routeur
 				{
 					$this->ctrlHome->sendLogin();
 				}
+				elseif ($_GET['home'] == 'registerPage')
+				{
+					$this->ctrlHome->getSignUpPage();
+				}
+				elseif ($_GET['home'] == 'sendRegistration')
+				{
+					if ((isset($_POST['surname'])) && (isset($_POST['name']))
+							&& (isset($_POST['password'])) && (isset($_POST['mail'])))
+					{
+							$this->ctrlHomeSignUp->sendSalarie($_POST['surname'],$_POST['name'],$_POST['password'],$_POST['mail']);
+					}
+					else
+					{
+							$this->erreur("Toutes les données n'ont pas été renseignées");
+					}
+				}
 			}
 			else
 			{

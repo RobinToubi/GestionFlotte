@@ -15,6 +15,12 @@ class ControleurHome
       $vue = new Vue('Login');
       $vue->generer(array());
     }
+
+    public function getSignUpPage()
+    {
+      $vue = new Vue('SignUp');
+      $vue->generer(array());
+    }
 }
 
 ?>
