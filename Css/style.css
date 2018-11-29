@@ -1,9 +1,3 @@
-/*
-  Theme Name: Regna
-  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -133,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero 
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -662,6 +656,81 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #Signin .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+
+/* Infos Section
+--------------------------------*/
+#Infos {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#Infos .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#Infos .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #2dc997;
+}
+
+#Infos .icon a {
+  display: inline-block;
+}
+
+#Infos .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#Infos .box:hover .icon {
+  background: #fff;
+  border: 2px solid #2dc997;
+}
+
+#Infos .box:hover .icon i {
+  color: #2dc997;
+}
+
+#Infos .box:hover .icon a {
+  color: #2dc997;
+}
+
+#Infos .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#Infos .title a {
+  color: #111;
+}
+
+#Infos .description {
   font-size: 14px;
   line-height: 24px;
 }

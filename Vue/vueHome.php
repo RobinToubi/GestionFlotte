@@ -1,41 +1,16 @@
-<?php
-
-$this->titre = "Accueil";
-$this->banniere = "GSB sans trop tôt";
-
-?>
-<!doctype html>
-<html lang="en">
-
-<head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-
-<title>GSB sans trop tôt</title>
-
-<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<link href="lib/animate/animate.min.css" rel="stylesheet">
-
-<link href="css/style.css" rel="stylesheet">
-
-</head>
+<?php $this->titre="Home";?>
 <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
-        </div>
+        <a href="#hero"><img src="img/logo.png" alt="" title="" /></a>
+      </div>
         <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#Signin">Sign in</a></li>
           <li><a href="#Signup">Sign up</a></li>
+          <li><a href="#Info">Infos</a></li>
           <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -63,30 +38,42 @@ $this->banniere = "GSB sans trop tôt";
       <a href="#about" class="btn-get-started">Get Started</a>
     </div>
   </section>
-<body>
+  <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">Quelque information sur nous</h2>
+            <p>
+
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Prendre un rendez-vous</a></h4>
+              <p class="description">Pour votre rendez-vous, vous pouvez choisir possiblement avec qui votre maintenance véhicule pourrait ce faire, ou, quand est pour quel véhicule</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">Ou nous somme</a></h4>
+              <p class="description">Notre maison mère se situe précisément : 10 Rue du Dr Chibret, 15000 Aurillac</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Situation économique</a></h4>
+              <p class="description">Actuellement en grande augmentation financière, nous pensons recruter plus de personnel</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+
+      </div>
+    </section>
 
 
-   
 
-   
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-
-
-    
-    <script src="js/main.js"></script>
-
-
-</body>
-
-</html>
-
-</body>
 
