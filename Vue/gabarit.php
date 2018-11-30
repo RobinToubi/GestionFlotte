@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Contenu/style.css" />
+    <link href="css/style-Next.css" rel="stylesheet">
     <title><?=$titre ?></title>
   </head>
   <body>

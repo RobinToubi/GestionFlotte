@@ -62,19 +62,110 @@
 
       </div>
     </div>
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>GSB sans trop tôt</strong>. All Rights Reserved
+
+<div class="container">
+
+  
+  <div class="row">
+
+    
+    <div class="col-lg-2 col-md-12 mb-4">
+
+  
+      <div class="view overlay z-depth-1-half">
+        <img src="http://www.carlogos.org/logo/Lamborghini-logo.png" class="img-fluid" alt="">
+        <a href="">
+          <div class="mask rgba-white-light"></div>
+        </a>
       </div>
-      <div class="credits">
-        <!--
-          https://bootstrapmade.com/license/
-        -->
-        Designed by GSB sans trop tôt</a>
-      </div>
+
     </div>
-  </footer>
+    
+
+    
+    <div class="col-lg-2 col-md-6 mb-4">
+
+  
+      <div class="view overlay z-depth-1-half">
+        <img src="https://i.pinimg.com/originals/34/33/b9/3433b957c03b0ed0c2cf4e93bb9c3466.png" class="img-fluid" alt="">
+        <a href="">
+          <div class="mask rgba-white-light"></div>
+        </a>
+      </div>
+
+    </div>
+    
+
+    
+    <div class="col-lg-2 col-md-6 mb-4">
+
+  
+      <div class="view overlay z-depth-1-half">
+        <img src="https://emcdn.com/img/auto/brands/240x180/porsche.png" class="img-fluid" alt="">
+        <a href="">
+          <div class="mask rgba-white-light"></div>
+        </a>
+      </div>
+
+    </div>
+    
+
+    
+    <div class="col-lg-2 col-md-12 mb-4">
+
+  
+      <div class="view overlay z-depth-1-half">
+        <img src="https://www.beneoshop.fr/pub/media/wysiwyg/brand/Bentley-logo.png" class="img-fluid" alt="">
+        <a href="">
+          <div class="mask rgba-white-light"></div>
+        </a>
+      </div>
+
+    </div>
+    
+
+    
+    <div class="col-lg-2 col-md-6 mb-4">
+
+  
+      <div class="view overlay z-depth-1-half">
+        <img src="https://www.autosport31.fr/wp-content/uploads/2016/03/maserati.png" class="img-fluid" alt="">
+        <a href="">
+          <div class="mask rgba-white-light"></div>
+        </a>
+      </div>
+
+    </div>
+    
+
+    
+    <div class="col-lg-2 col-md-6 mb-4">
+
+  
+      <div class="view overlay z-depth-1-half">
+        <img src="http://dessinludo.com/wp-content/uploads/2018/05/Tesla-logo.png" class="img-fluid" alt="">
+        <a href="">
+          <div class="mask rgba-white-light"></div>
+        </a>
+      </div>
+
+    </div>
+    
+
+  </div>
+  
+
+</div>
+
+
+
+<div class="copyright">
+        &copy; Copyright <strong>GSB sans trop tôt</strong>. All Rights Reserved
+</div>
+</footer>
+
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
