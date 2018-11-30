@@ -89,7 +89,7 @@
 
   
       <div class="view overlay z-depth-1-half">
-        <img src="https://i.pinimg.com/originals/34/33/b9/3433b957c03b0ed0c2cf4e93bb9c3466.png" class="img-fluid" alt="">
+        <img src="https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/I/m/NASA_logo.svg.png" class="img-fluid" alt="">
         <a href="">
           <div class="mask rgba-white-light"></div>
         </a>
@@ -152,11 +152,24 @@
       </div>
 
     </div>
-    
+
+
+
+
+    </div>
+    <div class="col-lg-2 col-md-6 mb-4">
+    <div class="view overlay z-depth-1-half">
+        <img src="" class="img-fluid" alt="">
+        <a href="">
+          <div class="mask rgba-white-light"></div>
+        </a>
+      </div>
+
+    </div>
 
   </div>
   
-
+  
 </div>
 
 
