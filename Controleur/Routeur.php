@@ -1,11 +1,20 @@
 <?php
 
+foreach (glob("Controleur/*.php") as $filename)
+{
+	if ($filename != "Controleur/Routeur.php") { include $filename;}
+}
+
+/*
 require_once 'Controleur/ControleurVehicules.php';
 require_once 'Controleur/ControleurVehicule.php';
 require_once 'Controleur/ControleurEntretiens.php';
 require_once 'Controleur/ControleurSetTechnicien.php';
 require_once 'Controleur/ControleurSetEntretien.php';
 require_once 'Controleur/ControleurHome.php';
+require_once 'Controleur/'
+*/
+
 require_once 'Vue/Vue.php';
 
 class Routeur
@@ -16,6 +25,7 @@ class Routeur
 	private $ctrlSetTechnicien;
 	private $ctrlSetEntretien;
 	private $ctrlHome;
+	private $ctrlHomeSignUp;
 
 	public function __construct()
 	{
@@ -25,6 +35,7 @@ class Routeur
 		$this->ctrlSetTechnicien = new ControleurSetTechnicien();
 		$this->ctrlSetEntretien = new ControleurSetEntretien();
 		$this->ctrlHome = new ControleurHome();
+		$this->ctrlHomeSignUp = new ControleurHomeSignUp();
 	}
 
 	// Traite une requête entrante

@@ -9,7 +9,7 @@ $this->banniere = "Ajouter un Entretien";
     <select name="tech">
         <option value='bonjour'>Selectionner un technicien</option>
         <?php foreach ($techniciens as $technicien): ?>
-            <option value=<?php $technicien['id']; ?>><?php echo $technicien['nom'] . ' ' . $technicien['prenom']; ?></option>
+            <option value=<?php $technicien['Sid']; ?>><?php echo $technicien['Snom'] . ' ' . $technicien['Sprenom']; ?></option>
         <?php endforeach; ?>
     </select>
     <textarea type="text" placeholder="Description" name="desc"></textarea>

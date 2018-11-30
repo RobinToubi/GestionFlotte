@@ -2,25 +2,25 @@
 
 abstract class Modele
 {
-	//Attribut de la classe PDO d'accès à la base
+	//Attribut de la classe PDO d'accï¿½s ï¿½ la base
 	private $bdd;
 
-	//Exécute une requête SQL éventuellement paramétrée
+	//Exï¿½cute une requï¿½te SQL ï¿½ventuellement paramï¿½trï¿½e
 	protected function executerRequete($sql, $params = null)
 	{
 		if ($params == null)
 		{
-			$resultat = $this->getConnexionBdd()->query($sql);    //Exécution directe
+			$resultat = $this->getConnexionBdd()->query($sql);    //Exï¿½cution directe
 		}
 		else
 		{
-			$resultat = $this->getConnexionBdd()->prepare($sql);  //Requête préparée
+			$resultat = $this->getConnexionBdd()->prepare($sql);  //Requï¿½te prï¿½parï¿½e
 			$resultat->execute($params);
 		}
 		return $resultat;
 	}
 
-	//Renvoie un objet de connexion à la BD en initialisant la connexion au besoin
+	//Renvoie un objet de connexion ï¿½ la BD en initialisant la connexion au besoin
 	private function getConnexionBdd()
 	{
 		if ($this->bdd == null)

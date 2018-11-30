@@ -12,7 +12,9 @@ class Technicien extends Modele
     }
 
     public function getTechniciens() {
-        $requete = 'SELECT * FROM technicien';
+        $requete = "SELECT * FROM salarie
+                    JOIN role ON Srole = Rid
+                    WHERE Rlibelle = 'technicien' ";
         $technicien = $this->executerRequete($requete);
         if ($technicien->rowCount() != 0)
         {
