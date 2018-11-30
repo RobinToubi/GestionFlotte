@@ -11,7 +11,7 @@
 		    <h2 class="text-center">Login Now</h2>
 		    <form class="login-form">
   <div class="form-group">
-    <label for="exampleInputEmail1" class="text-uppercase">Username</label>
+    <label for="exampleInputEmail1" class="text-uppercase">Mail</label>
     <input type="text" class="form-control" placeholder="">
     
   </div>
@@ -61,9 +61,8 @@
 	   </div>	
     </div>
   </div>
-            </div>	   
-		    
-		</div>
-	</div>
+</div>	   	    
+</div>
+</div>
 </div>
 </section>
