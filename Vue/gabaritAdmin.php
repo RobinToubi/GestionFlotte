@@ -11,6 +11,8 @@
     <div>
       <input type='button' value='Voir tous les salariés'>
       <input type='button' value='Voir tous les entretiens'>
+      <a class='add' href="index.php?action=sendAdmin">Voir Salarie</a>
+      <a class='add' href="index.php?action=sendAdminEntretien">Voir Entretien</a>
     </div>
     <?=$contenu ?>
   </body>
