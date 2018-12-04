@@ -14,7 +14,7 @@ class ControleurAllEntretiens
   }
 
 
-  public function afficheEntretien()
+  public function afficheEntretiens()
   {
     $entretiens = $this->entretien->getAllEntretiens();
     $vue = new Vue("AllEntretien");

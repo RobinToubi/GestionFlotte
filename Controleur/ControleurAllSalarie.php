@@ -13,7 +13,7 @@ class ControleurAllSalarie
   }
 
 
-  public function afficheSalarie()
+  public function afficheSalaries()
   {
     $salaries = $this->salarie->getSalaries();
     $vue = new Vue("AllSalarie");

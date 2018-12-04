@@ -2,7 +2,7 @@
 
 foreach (glob("Controleur/*.php") as $filename)
 {
-	if ($filename != "Controleur/Routeur.php") { include $filename;}
+	if ($filename != "Controleur/Routeur.php") { require_once $filename;}
 }
 
 /*
@@ -26,7 +26,7 @@ class Routeur
 	private $ctrlSetEntretien;
 	private $ctrlHome;
 	private $ctrlHomeSignUp;
-	private $ctrlAllSalarie;
+	private $ctrlAllSalaries;
 	private $ctrlAllEntretiens;
 
 	public function __construct()
@@ -38,8 +38,8 @@ class Routeur
 		$this->ctrlSetEntretien = new ControleurSetEntretien();
 		$this->ctrlHome = new ControleurHome();
 		$this->ctrlHomeSignUp = new ControleurHomeSignUp();
-		$this->ctrlAllSalarie = new ControleurAllSalarie();
-		$this->ctrlAllEntretiens= new ControleurAllEntretiens();
+		$this->ctrlAllSalaries = new ControleurAllSalarie();
+		$this->$ctrlAllEntretiens = new ControleurAllEntretiens();
 	}
 
 	// Traite une requête entrante
@@ -84,20 +84,6 @@ class Routeur
 						$this->ctrlSetTechnicien->vueSetTechnicien();
 					}
 				}
-				elseif($_GET['action'] == 'sendAdmin') {
-					try {
-					$this->ctrlAllSalarie->afficheSalarie();
-				} catch (SQLException $ex) {
-					$this->erreur($ex->getMessage());
-				}
-			}
-				elseif($_GET['action'] == 'sendAdminEntretien') {
-					try {
-					$this->ctrlAllEntretiens->afficheEntretien();
-				} catch (SQLException $ex) {
-					$this->erreur($ex->getMessage());
-				}
-			}
 				elseif($_GET['action'] == 'vueSetEntretien') {
 					$this->ctrlSetEntretien->addEntretienVue();
 				}
@@ -112,6 +98,15 @@ class Routeur
 						}
 				}
 
+				elseif ($_GET['action'] == 'getAllSalaries')
+				{
+					$this->ctrlAllSalaries->afficheSalaries();
+				}
+				elseif ($_GET['action'] == 'getAllEntretiens')
+				{
+					$this->ctrlAllEntretiens->afficheEntretiens();
+				}
+
 				else
 					throw new Exception("Action non proposée");
 			}
@@ -123,6 +118,7 @@ class Routeur
 				}
 				elseif ($_GET['home'] == 'sendLogin')
 				{
+					if ($_POST[''])
 					$this->ctrlHome->sendLogin();
 				}
 				elseif ($_GET['home'] == 'registerPage')

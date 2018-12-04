@@ -9,10 +9,8 @@
 
   <body>
     <div>
-      <a href='index.php?action=getAllSalaries' value='Voir tous les salariés'>
-      <a href='index.php?action=getAllEntretiens' value='Voir tous les entretiens'>
-      <a href='index.php?action=addUser' value='Ajouter un membre'>
-      <a href='index.php?action=getAllGarages' value='Voir tous les garages'>
+      <a class='add' href="index.php?action=getAllSalaries">Voir tous les Salarie</a>
+      <a class='add' href="index.php?action=getAllEntretiens">Voir tous les Entretiens</a>
     </div>
     <?=$contenu ?>
   </body>

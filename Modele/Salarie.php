@@ -41,7 +41,6 @@ class Salarie extends Modele
     $requete = "SELECT * FROM salarie";
     $resultats = $this->executerRequete($requete);
     return $resultats;
-
   }
 
   }

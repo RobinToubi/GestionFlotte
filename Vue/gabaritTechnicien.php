@@ -9,8 +9,9 @@
 
   <body>
     <div>
-      <input type='button' value='Mes informations'>
-      <input type='button' value='Mes entretiens'>
+      <a href='index.php?action=updateUser'>Modifier mes informations</a>
+      <a href='index.php?action=getMesEntretiens'>Mes entretiens</a>
+      <a href='index.php?action=getGarages'>Les garages</a>
     </div>
     <?=$contenu ?>
   </body>

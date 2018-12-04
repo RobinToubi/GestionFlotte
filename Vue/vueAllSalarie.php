@@ -5,7 +5,7 @@ $this->banniere = "Afficher les Salarie";
 
 ?>
 
-<form method="POST" action="index.php?action=sendAdmin">
+<form method="POST" action="index.php?action=getAllSalaries">
 
   <?php foreach ($salaries as $salarie): ?>
       <article>
