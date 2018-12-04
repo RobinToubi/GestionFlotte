@@ -16,4 +16,11 @@ class Entretien extends Modele
 	{
 		$requete = 'INSERT INTO entretien VALUES ';
 	}
+
+	public function getAllEntretiens()
+  {
+    $requete = "SELECT * FROM entretien";
+    $resultats = $this->executerRequete($requete);
+    return $resultats;
+}
 }
