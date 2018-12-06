@@ -1,9 +1,7 @@
 <?php $this->titre="Home";?>
 <header id="header">
     <div class="container">
-
-      
-        <nav id="nav-menu-container">
+      <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="index.php?home=loginPage">Sign in</a></li>
@@ -24,22 +22,17 @@
   <section id="info">
       <div class="container">
         <div class="row infos-container">
-
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Quelque information sur nous</h2>
-            <p>
-
-            </p>
-
+            <h2 class="title">Quelques informations sur nous</h2>
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title"><a href="">Prendre un rendez-vous</a></h4>
-              <p class="description">Pour votre rendez-vous, vous pouvez choisir possiblement avec qui votre maintenance véhicule pourrait ce faire, ou, quand est pour quel véhicule</p>
+              <p class="description">Pour votre rendez-vous, vous pouvez choisir possiblement avec qui votre maintenance véhicule pourrait ce faire, où, quand et pour quel véhicule</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Ou sommes-nous</a></h4>
+              <h4 class="title"><a href="">Où sommes-nous</a></h4>
               <p class="description">Notre maison mère se situe précisément : 10 Rue du Dr Chibret, 15000 Aurillac</p>
             </div>
 
@@ -67,13 +60,13 @@
 
 <div class="container">
 
-  
+
   <div class="row">
 
-    
+
     <div class="col-lg-2 col-md-12 mb-4">
 
-  
+
       <div class="view overlay z-depth-1-half">
         <img src="http://www.carlogos.org/logo/Lamborghini-logo.png" class="img-fluid" alt="">
         <a href="">
@@ -82,12 +75,12 @@
       </div>
 
     </div>
-    
 
-    
+
+
     <div class="col-lg-2 col-md-6 mb-4">
 
-  
+
       <div class="view overlay z-depth-1-half">
         <img src="https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/I/m/NASA_logo.svg.png" class="img-fluid" alt="">
         <a href="">
@@ -96,12 +89,12 @@
       </div>
 
     </div>
-    
 
-    
+
+
     <div class="col-lg-2 col-md-6 mb-4">
 
-  
+
       <div class="view overlay z-depth-1-half">
         <img src="https://emcdn.com/img/auto/brands/240x180/porsche.png" class="img-fluid" alt="">
         <a href="">
@@ -110,12 +103,12 @@
       </div>
 
     </div>
-    
 
-    
+
+
     <div class="col-lg-2 col-md-12 mb-4">
 
-  
+
       <div class="view overlay z-depth-1-half">
         <img src="https://www.beneoshop.fr/pub/media/wysiwyg/brand/Bentley-logo.png" class="img-fluid" alt="">
         <a href="">
@@ -124,12 +117,12 @@
       </div>
 
     </div>
-    
 
-    
+
+
     <div class="col-lg-2 col-md-6 mb-4">
 
-  
+
       <div class="view overlay z-depth-1-half">
         <img src="https://www.autosport31.fr/wp-content/uploads/2016/03/maserati.png" class="img-fluid" alt="">
         <a href="">
@@ -138,12 +131,12 @@
       </div>
 
     </div>
-    
 
-    
+
+
     <div class="col-lg-2 col-md-6 mb-4">
 
-  
+
       <div class="view overlay z-depth-1-half">
         <img src="http://dessinludo.com/wp-content/uploads/2018/05/Tesla-logo.png" class="img-fluid" alt="">
         <a href="">
@@ -168,8 +161,8 @@
     </div>
 
   </div>
-  
-  
+
+
 </div>
 
 
@@ -181,8 +174,3 @@
 
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-
-
-
-

@@ -14,6 +14,7 @@
           <a class='add' href="index.php?action=setTech">Ajouter un technicien</a>
           <a class='add' href='index.php?action=vueSetEntretien'>Ajouter un entretien</a>
           <a class='add' href='index.php?action=getHomePage'>GSB sans trop tôt</a>
+
         </nav>
       </header>
       <section>

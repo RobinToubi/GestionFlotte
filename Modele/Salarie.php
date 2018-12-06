@@ -36,6 +36,13 @@ class Salarie extends Modele
 
     return $resultat;
   }
+  public function getSalaries()
+  {
+    $requete = "SELECT * FROM salarie";
+    $resultats = $this->executerRequete($requete);
+    return $resultats;
+  }
 
-}
+  }
+
 ?>

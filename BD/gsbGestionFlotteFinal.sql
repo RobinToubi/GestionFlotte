@@ -114,6 +114,10 @@ CREATE TABLE `salarie` (
   `Srole` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+INSERT INTO `salarie` (`Sid`,`Snom`, `Sprenom` ,`Smail` ,`Spassword` ,`Srole`) VALUES
+('1','Jean','Moulin','JeanMoulin@hotmail.com','jm','1');
+('1','Tim','Beat','TimBeatl@hotmail.com','po','2');
+
 -- --------------------------------------------------------
 
 --
